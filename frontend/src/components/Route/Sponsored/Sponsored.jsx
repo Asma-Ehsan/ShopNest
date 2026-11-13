@@ -9,14 +9,14 @@ const Sponsored = () => {
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-14 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300">
         <div className="flex item-center">
           <img
-            src="https://logos-world.net/wp-content/uploads/2020/04/Sony-Logo.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQscg8K8MhXp24tCKbRMzyHI_a0X45eJv5Frydh-VXtAw&s=10"
             alt=""
             style={{ width: "150px", objectFit: "contain" }}
           />
         </div>
         <div className="flex item-center">
           <img
-            src="https://logos-world.net/wp-content/uploads/2020/08/Dell-Logo-1989-2016.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuCmUMPfcN3dL2U8Cv853rdbYk8WJGoLdmgTOZKJo_A&s=10"
             alt=""
             style={{ width: "150px", objectFit: "contain" }}
           />
