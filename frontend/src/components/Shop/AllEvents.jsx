@@ -14,9 +14,9 @@ const AllEvents = () => {
         dispatch(getAllEventsShop(seller._id));
     },[dispatch])
 
-    const handleDelete = (id) => {
-        dispatch(deleteEvent(id));
-        window.location.reload();
+    const handleDelete = async (id) => {
+        await dispatch(deleteEvent(id));
+        dispatch(getAllEventsShop(seller._id));
     }
 
     const row = [];

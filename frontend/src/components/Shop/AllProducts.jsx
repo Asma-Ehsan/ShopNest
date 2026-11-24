@@ -16,7 +16,7 @@ const AllProducts = () => {
 
   const handleDelete = async (id) => {
     await dispatch(deleteProduct(id));
-    window.location.reload();
+    dispatch(getAllProductsShop(seller._id));
   };
 
   const row = [];
